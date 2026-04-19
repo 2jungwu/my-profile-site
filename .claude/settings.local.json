@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wslview index.html)",
+      "Bash(cmd /c start index.html)",
+      "Bash(bash /c/Users/tiss8/.claude/statusline-command.sh)",
+      "Bash(python3 -c \"import sys,json; d=json.loads\\('{\\\\\"model\\\\\":{\\\\\"display_name\\\\\":\\\\\"Claude Sonnet\\\\\"}}'\\); print\\(d.get\\('model',{}\\).get\\('display_name','Unknown'\\)\\)\")",
+      "Bash(powershell *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git remote *)",
+      "Bash(git push *)"
+    ]
+  }
+}
